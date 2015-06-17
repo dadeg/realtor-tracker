@@ -1,7 +1,7 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple vagrant and chef configuration for a Ruby on Rails installation.
+It is all the necessary steps to get immediately started on 
 
 Things you may want to cover:
 
@@ -13,6 +13,9 @@ Things you may want to cover:
 
 * Database creation
 
+ Need to run rake db:create && rake db:migrate to build database.
+ You could also just reprovision the server with vagrant provision
+
 * Database initialization
 
 * How to run the test suite
@@ -20,6 +23,8 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+
+Just vagrant up, and there should be a rails welcome page waiting for you at localhost:3000
 
 * ...
 
